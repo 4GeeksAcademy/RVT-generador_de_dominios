@@ -3,3 +3,11 @@
 body{
     background: white;
 }
+.domain-cell {
+  cursor: pointer;     /* Cambia el cursor a mano */
+  transition: font-weight 0.2s ease;
+}
+
+.domain-cell:hover {
+  font-weight: bold;   /* Resalta la fuente en negrita al pasar */
+}

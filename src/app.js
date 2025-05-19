@@ -27,7 +27,7 @@ window.onload = function() {
             const dominio = domin[l];
 
             dominios +=
-              "<tr><td >" +
+              "<tr><td class= 'domain-cell'>" +
               pronombres +
               adjetivo +
               element +
